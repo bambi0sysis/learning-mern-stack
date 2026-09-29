@@ -1,0 +1,29 @@
+img{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+}
+
+hr{
+    margin-block-start: 0px;
+}
+
+h3{
+    color:#d54629de;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr, h3, p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
