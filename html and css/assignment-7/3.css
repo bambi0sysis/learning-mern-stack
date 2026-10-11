@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(132, 198, 198);
+    font-family: "Roboto", sans-serif;
+    margin: 30px 5px;
+table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 4px 5px 20px rgb(127, 126, 126);
+}
+}
+th, td{
+    color:rgb(64, 135, 135);
+    padding: 10px; 
+}
+th{
+    background-color: rgb(201, 235, 235);
+}
+.main{
+    background-color: rgb(48, 109, 109);
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 15px;
+}
+img{
+    width:5em;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.odd td{
+    background-color: aliceblue;
+    color: rgb(46, 103, 103);
+}
+.even td{
+    background-color: rgb(210, 239, 239);
+    color: rgb(46, 103, 103);
+}
+#last1{
+    border-bottom-left-radius: 10px;
+}
+#last2{
+    border-bottom-right-radius: 10px;
+}
